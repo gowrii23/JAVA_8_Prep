@@ -9,11 +9,11 @@ public class TestAnimal {
 		ani.eat();
 		hor.eat();
 		
-		//Polymorphism
+		//Polymorphism 
 		Animal pAni = new Horse();  // Horse IS-A Animal so it will work
 		pAni.eat();
 		//Horse pHor = new Animal(); //Error //Type mismatch: cannot convert from Animal to Horse
-		
+		System.out.println("HI");
 		
 	}
 }
