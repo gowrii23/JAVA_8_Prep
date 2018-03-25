@@ -1,8 +1,11 @@
 package objects.test;
 
+import java.io.IOException;
+import java.sql.SQLException;
+
 public class TestAnimal {
 
-	public static void main(String... args) {
+	public static void main(String... args) throws IOException, SQLException {
 		//Object Creating
 		Animal ani = new Animal();
 		Horse hor = new Horse();
@@ -18,7 +21,7 @@ public class TestAnimal {
 		sleep(hor);
 		
 		System.out.println("HI");
-		
+	 	
 	}
 
 	
