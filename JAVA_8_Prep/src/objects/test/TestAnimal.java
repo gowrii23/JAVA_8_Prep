@@ -22,6 +22,29 @@ public class TestAnimal {
 		
 		System.out.println("HI");
 	 	
+		//Fun Q
+		int a=5,b;
+		a++;
+		b=a;
+		System.out.println(a+" "+b);
+		b=a++;
+		System.out.println(a+" "+b);
+		
+		StringBuffer strBuf = new StringBuffer("5");
+		StringBuffer strBuf2;
+		strBuf.append("6");
+		strBuf2= strBuf;
+		System.out.println(strBuf+"Str Buffer"+strBuf2);
+		
+		StringBuilder strbld = new StringBuilder("5");
+		StringBuilder strbld2;
+		strbld.append("6");
+		strbld2=strbld;
+		System.out.println(strbld+"Str Builder"+strbld2);
+		//End Of Fun Q
+		
+		
+		
 	}
 
 	
