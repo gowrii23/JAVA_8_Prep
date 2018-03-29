@@ -30,6 +30,10 @@ public class TestAnimal {
 		b=a++;
 		System.out.println(a+" "+b);
 		
+		String s1 = "Gowri";
+        concat1(s1);  // s1 is not changed
+        System.out.println("String: " + s1);
+		
 		StringBuffer strBuf = new StringBuffer("5");
 		StringBuffer strBuf2;
 		strBuf.append("6");
@@ -53,4 +57,10 @@ public class TestAnimal {
 		// TODO Auto-generated method stub
 		System.out.println("Polymorphism:: Though Horse obj is passed it picks");
 	}
+	
+	// Concatenates to String
+    public static void concat1(String s1)
+    {
+        s1 = s1 + "forgeeks";
+    }
 }
