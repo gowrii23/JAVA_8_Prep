@@ -47,6 +47,17 @@ public class TestAnimal {
 		System.out.println(strbld+"Str Builder"+strbld2);
 		//End Of Fun Q
 		
+		//AutoBoxing -- will be done for primitive
+		Integer i1= 10;
+		Integer i2=10;
+		if(i1==i2) {System.out.println("Same object");}
+		if(i1!=i2) {System.out.println("Different  object");}
+		
+		//AutoBoxing -- will NOT be done for primitive
+		Integer i3= 1000;
+		Integer i4=1000;
+		if(i3==i4) {System.out.println("Same object");}
+		if(i3!=i4) {System.out.println("Different  object");}
 		
 		
 	}
