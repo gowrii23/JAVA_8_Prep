@@ -4,7 +4,7 @@ public class BinarySearch {
 
 	public static void main(String[] args) {
 		int[] arr={0,1,2,3,4,5,6,7,8};
-		//arr= {1,1,1,1};  //Illegal // assign values allowed olny during initialization
+		//arr= {1,1,1,1};  //Illegal // assign values allowed only during initialization
 		
 		int search = 2;
 		
