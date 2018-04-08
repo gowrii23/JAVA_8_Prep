@@ -2,6 +2,7 @@ package objects.test;
 
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Hashtable;
 
 public class TestAnimal {
 
@@ -59,7 +60,9 @@ public class TestAnimal {
 		if(i3==i4) {System.out.println("Same object");}
 		if(i3!=i4) {System.out.println("Different  object");}
 		
-		
+		Hashtable ha= new Hashtable();
+		ha.put(a, "abc");
+		System.out.println(ha.get(a));
 	}
 
 	
